@@ -1,0 +1,20 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore SQLite database
+*.sqlite3
+
+# Ignore Django migration files (except __init__.py)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# VSCode settings
+.vscode/
+
+# Environment files
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
